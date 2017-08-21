@@ -13,6 +13,8 @@
   <remote name="O"
           revision="refs/tags/android-o-preview-4"
           fetch="https://android.googlesource.com/" />
+  <remote  name="bitbucket"
+          fetch="https://bitbucket.org" />
   
   <project path="build" name="android_build" groups="pdk,tradefed" remote="github" revision="aosp" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -57,6 +59,7 @@
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,marlin,pdk" />
     <!-- Kernel Source -->
   <project path="kernel/moto/shamu" name="purez-kernel-shamu" groups="device,shamu,broadcom_pdk,generic_fs,pdk" remote="github" revision="purez-7.1.1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-uber" name="UBERTC/arm-eabi-4.8" remote="bitbucket" revision="master" />
   <!-- Kernel Source End-->
   <!-- Proprietary Vendors -->
   <project path="vendor/google_devices" name="proprietary_vendor_google_devices" remote="pure" revision="n-mr2" />
