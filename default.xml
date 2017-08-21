@@ -56,7 +56,7 @@
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs,pdk" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,marlin,pdk" />
     <!-- Kernel Source -->
-  <project path="kernel/moto/shamu" name="android_kernel_moto_shamu" groups="device,shamu,broadcom_pdk,generic_fs,pdk" remote="github" revision="aosp-7.1.2" />
+  <project path="kernel/moto/shamu" name="purez-kernel-shamu" groups="device,shamu,broadcom_pdk,generic_fs,pdk" remote="github" revision="purez-7.1.1" />
   <!-- Kernel Source End-->
   <!-- Proprietary Vendors -->
   <project path="vendor/google_devices" name="proprietary_vendor_google_devices" remote="pure" revision="n-mr2" />
