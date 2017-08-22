@@ -11,7 +11,7 @@
   <remote name="pure"
           fetch="https://github.com/PureNexusProject/" />
   <remote name="O"
-          revision="refs/tags/android-o-preview-4"
+          revision="refs/tags/android-8.0.0_r4"
           fetch="https://android.googlesource.com/" />
   <remote  name="bitbucket"
           fetch="https://bitbucket.org" />
