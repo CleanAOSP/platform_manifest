@@ -9,7 +9,7 @@
   <remote name="github"
           fetch="https://github.com/CleanAOSP" />
   <remote name="pure"
-          fetch="https://github.com/PureNexusProject/" />
+          fetch="https://github.com/PureNexusProject-Legacy" />
   <remote name="O"
           revision="refs/tags/android-8.0.0_r4"
           fetch="https://android.googlesource.com/" />
@@ -62,7 +62,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-uber" name="UBERTC/arm-eabi-4.8" remote="bitbucket" revision="master" />
   <!-- Kernel Source End-->
   <!-- Proprietary Vendors -->
-  <project path="vendor/google_devices" name="proprietary_vendor_google_devices" remote="pure" revision="n-mr2" />
+  <!--project path="vendor/google_devices" name="proprietary_vendor_google_devices" remote="pure" revision="n-mr2" /-->
   <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="pure" revision="n-mr2" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="pure" revision="n-mr2" />
   <project path="vendor/moto" name="proprietary_vendor_moto" remote="pure" revision="n-mr2" />
