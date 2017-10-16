@@ -59,7 +59,7 @@
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs,pdk" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,marlin,pdk" />
     <!-- Kernel Source -->
-  <project path="kernel/moto/shamu" name="purez-kernel-shamu" groups="device,shamu,broadcom_pdk,generic_fs,pdk" remote="github" revision="purez-7.1.1" />
+  <project path="kernel/moto/shamu" name="kernel_msm" remote="github" revision="android-msm-shamu-3.10-nougat-mr1.7" groups="device,shamu,broadcom_pdk,generic_fs,pdk" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-uber" name="UBERTC/arm-eabi-4.8" remote="bitbucket" revision="master" />
   <!-- Kernel Source End-->
   <!-- Proprietary Vendors -->
