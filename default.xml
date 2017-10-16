@@ -65,8 +65,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERTC/arm-linux-androideabi-4.9" remote="bitbucket" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERTC/arm-eabi-4.8" remote="bitbucket" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="matthewdalex/arm-eabi-4.9" remote="bitbucket" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="UBERTC/aarch64-linux-android-4.9" remote="bitbucket" revision="master" />
-  <!-- Toolchain Source End-->
+ <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" />  <!-- Toolchain Source End-->
   <!-- Proprietary Vendors -->
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="pure" revision="n-mr2" />
   <project path="vendor/moto" name="VanillaNexusSource/android_vendor_moto" remote="gh" revision="7.1.2" />
