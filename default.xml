@@ -58,14 +58,15 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device,pdk" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs,pdk" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,marlin,pdk" />
-    <!-- Kernel Source -->
+  <!-- Kernel Source -->
   <project path="kernel/moto/shamu" name="kernel_msm" remote="github" revision="android-msm-shamu-3.10-nougat-mr1.7" groups="device,shamu,broadcom_pdk,generic_fs,pdk" />
   <!-- Kernel Source End-->
   <!-- ToolChain Source -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERTC/arm-linux-androideabi-4.9" remote="bitbucket" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERTC/arm-eabi-4.8" remote="bitbucket" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="matthewdalex/arm-eabi-4.9" remote="bitbucket" revision="master" />
- <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" />  <!-- Toolchain Source End-->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" />
+  <!-- Toolchain Source End-->
   <!-- Proprietary Vendors -->
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="pure" revision="n-mr2" />
   <project path="vendor/moto" name="VanillaNexusSource/android_vendor_moto" remote="gh" revision="7.1.2" />
